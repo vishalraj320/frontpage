@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+#circle_image {
+  border-radius: 100%;
+  border: 5px solid #ffffff;
+}
+
+.parent{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    bottom: 50%;
+}
+.thumbnail {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid rgb(214, 212, 212);
+  margin:  10px 0 10px;
+}
+.row {
+   margin: 100px 20px 0px 20px;
+
+}
+.btn-light{
+    border: 1px solid #575555;
+}
+.btn{
+    border-radius: 0px;
+}
+hr{
+    border: 1px solid #cfc9c9;
+}
+#details{
+    padding-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="parent">
+   <img id="temp"src="img1.jpg"   width = "100%" height = "210">
+   <img class="over-img" id="circle_image" src="image2.jpg" alt="Avatar" width="200px">
+</div>
+<div class="thumbnail">
+    <div class="row">
+        <div class="col-sm-8">
+             <h1>Vishal raj</h1>
+             <h4>Student at BIT Mesra</h4>
+             <h6>Ranchi</h6>
+             <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Add Profile Section 
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu" >
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+                <button type="button" class="btn btn-light">More..</button>
+              </div>
+        </div>
+        <div id="details" class="col-sm-4">    
+             <a href="#"><i class="fa fa-envelope-square" style="font-size:20px;"></i></a>  Freelancer </br>
+             <a href="#"><i class="fas fa-university" style="font-size:20px;color: red;"></i></a>  BIT Mesra </br>
+             <a href="#"><i class="fas fa-address-book" style="font-size:20px;color: #928f8f;"></i></a>  See Contact info</br>
+             <a href="#"><i class="fa fa-users" style="font-size:20px;color: #928f8f;"></i></a>  See connection (500+)
+        </div>
+   </div>  
+   <hr>
+
+   <p>
+    As a Front-End Developer, to be responsible producing high quality solutions for company customers; bringing deep understanding of Modern HTML, JavaScript, and CSS, and the software development life cycle; and strong ability to execute and implement standard software architecture patterns.</p>
+    <a href="vishresume.pdf" class="btn btn-common"></i> Download Resume</a>
+</div>
+
+
+
+</div>
+</body>
+</html> 
